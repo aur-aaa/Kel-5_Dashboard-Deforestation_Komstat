@@ -53,18 +53,17 @@ Dashboard ini mengintegrasikan berbagai sumber resmi nasional dan internasional,
 ---
 
 ## 🗂️ Struktur Proyek
-│
-├── ui.R # Tampilan antarmuka utama
-├── server.R # Logika aplikasi
-├── global.R (opsional) # Objek global dan package
-├── data/ # Dataset mentah dan gambar
-│ ├── peta_kalimantan.geojson
-│ ├── tim1.jpg
-│ ├── tim2.jpg
-│ ├── tim3.jpg
-│ └── Tree_Cover_Loss_2015-2024.xlsx
-│ ├── Variabel_Regresi_Compile.xlsx
 
+    |── ui.R                                    # Tampilan antarmuka utama 
+    |── server.R                                # Logika aplikasi
+    |── global.R (opsional)                     # Objek global dan package
+    |── data/                                   # Dataset mentah dan gambar
+    |   └── peta_kalimantan.geojson             # Data spasial wilayah Kalimantan
+    |   └── tim1.jpg                            # Foto Anggota 1
+    |   └── tim2.jpg                            # Foto Anggota 2
+    |   └── tim3.jpg                            # Foto Anggota 3
+    |   └── Tree_Cover_Loss_2015-2024.xlsx      # Dataset Kehilangan Tutupan Lahan di Kalimantan Tahun 2015-2024
+    |   └── Variabel_Regresi_Compile.xlsx       # Data Variabel untuk Analisis Regresi
 
 ---
 
@@ -86,11 +85,9 @@ Dashboard ini mengintegrasikan berbagai sumber resmi nasional dan internasional,
 
 ## 👩‍💻 Anggota Tim
 
-| Nama                          | Peran                                 |
-|-------------------------------|----------------------------------------|
-| M. Arkillah Ibnu A.           | Pengumpulan dan pembersihan data       |
-| Aura Hanifa Kasetya Putri     | Analisis penyebab & dampak deforestasi |
-| Arif Budiman                  | Pengembangan dashboard & visualisasi   |
+- Arif Budiman
+- Aura Hanifa Kasetya Putri
+- M. Arkillah Ibnu A.  
 
 ---
 
